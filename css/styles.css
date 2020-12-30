@@ -218,6 +218,8 @@ img {
 
 .Top-Title p {
   font-size: 14px;
+  margin-top: 10px;
+  color: #432;
 }
 
 /* ボタンテンプレート */
@@ -246,8 +248,79 @@ img {
   -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
+.Section-Title-BG {
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+}
 
+.Section-Title {
+  font-size: 22px;
+  font-weight: normal;
+}
 
+.Course-Container {
+  margin: 30px auto;
+  width: 500px;
+}
+
+.Course-Menu {
+  display: flex;
+}
+
+.course-content-wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.course-content-wrapper h1 {
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 20px 0 5px 0;
+}
+.course-content-caption {
+  text-align: right;
+}
+
+.course-content-img {
+  margin: 20px 0;
+}
+
+.Course-Menu li a {
+  display: inline-block;
+  width: 125px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding: 8px 0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 3px 3px 0 0;
+}
+
+.Course-Menu li a.active {
+  background: #333;
+  color: #fff;
+}
+
+.Course-Menu li a:not(.active):hover {
+  color: #fff;
+  background: rgb(0, 160, 230);
+  transition: 0.4s;
+}
+
+.content.active {
+  background: #333;
+  color: #fff;
+  min-height: 150px;
+  padding: 12px;
+  display: block;
+}
+
+.content {
+  display: none;
+}
 
 
 /* PCサイト用レスポンシブ */

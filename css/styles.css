@@ -229,7 +229,7 @@ img {
 }
 /* セクション共通 */
 .Section-Title-BG {
-  margin-top: 100px;
+  padding-top: 80px;
   height: 100px;
   line-height: 100px;
   text-align: center;
@@ -363,16 +363,154 @@ img {
 .About-Message {
   margin-left: 36px;
   margin-right: 36px;
+  margin-bottom: 20px;
   text-align: center;
 }
 .About-Message h1 {
   padding-top: 30px;
   padding-bottom: 18px;
 }
+.About-Message p {
+  padding-top: 5px;
+}
+.Instagram-BG {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.About-Btn-BG {
+  padding-top: 50px;
+}
+.About-Btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+.Classroom-Nav {
+  padding-top: 14px;
+  font-size: 14px;
+}
 
+/* Classroom */
+.Classroom-Img-BG {
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+}
+.Classroom-Img {
+  width: 300px;
+  height: 300px;
+  box-shadow: 50px 50px rgb(0, 150, 200);
+}
+.Classroom-Content {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 10px;
+}
+.Classroom-Btn-BG {
+  margin-top: 30px;
+}
+.Classroom-Btn {
+  margin: 0 auto;
+}
 
+/* PRICE */
+.Price-Wrapper {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.Price-Table *, .Price-Table *:before, .Price-Table *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.Price-Table {
+	width: 100%;
+	margin: 0 auto;
+	border-spacing: 1px 0;
+	border-collapse: separate;
+}
+.Price-Table th, .Price-Table td {
+	padding: 10px;
+}
+/*Headerブロック*/
+.Price-Table th {
+	position: relative;
+	z-index: 1;
+	width: 125px;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+	border-radius: 5px 5px 0 0;
+	background: #88b7d5;
+}
+.Price-Table th:first-child {
+  background: none;
+}
+.Price-Table th:after {
+  font-family: 'FontAwesome';
+	font-size: 5em;
+	position: absolute;
+	z-index: -1;
+	right: 0;
+	bottom: -30px;
+	left: 0;
+	content: '\f0d7';
+}
+.Price-Table th.group1 {
+  background: #2e9b72;
+}
+.Price-Table th.group1:after {
+  color: #2e9b72;
+}
+.Price-Table th.group2 {
+  background: #da3c41;
+}
+.Price-Table th.group2:after {
+	color: #da3c41;
+}
+.Price-Table th.group3 {
+  background: #131874;
+}
+.Price-Table th.group3:after {
+  color: #131874;
+}
+/*メインブロック*/
+.Price-Table tr td {
+  padding-top: 15px;
+	text-align: center;
+  border: none;
+  font-size: 16px;
+}
+.Price-Table .group0 {
+  font-size: 12px;
+  font-weight: bold;
+}
+.Price-Table td span {
+  font-size: 10px;
+}
+.Price-Table tr:last-child td {
+	border-radius: 0 0 5px 5px;
+}
+.Price-Table tr:nth-child(2n+1) td.group1 {
+	background: #8cd9bc;
+}
+.Price-Table tr:nth-child(2n+0) td.group1 {
+	background: #c3e4d8;
+}
+.Price-Table tr:nth-child(2n+1) td.group2 {
+	background: #f2c2c2;
+}
+.Price-Table tr:nth-child(2n+0) td.group2 {
+	background: #f7e1e1;
+}
+.Price-Table tr:nth-child(2n+1) td.group3 {
+	background: #a9bce2;
+}
+.Price-Table tr:nth-child(2n+0) td.group3 {
+	background: #d7e1f4;
+}
 /* PCサイト用レスポンシブ */
-
 @media (min-width: 700px) {
   .pc-nav {
     display: flex;

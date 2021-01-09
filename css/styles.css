@@ -11,7 +11,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+figure, figcaption, footer, header, hGroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -24,14 +24,14 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hGroup, menu, nav, section {
   display: block;
 }
 ol, ul {
   list-style: none;
 }
 body {
-  font-size: 100%;
+  font-size: 14px;
   font-family: "Yu Gothic Medium","游ゴシック Midium",YuGothic,"游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
   color: #432;
   line-height: 1;
@@ -229,7 +229,7 @@ img {
 }
 /* セクション共通 */
 .Section-Title-BG {
-  padding-top: 80px;
+  padding-top: 120px;
   height: 100px;
   line-height: 100px;
   text-align: center;
@@ -247,21 +247,22 @@ img {
 .Course-Menu {
   display: flex;
 }
-.course-content-wrapper {
+.Course-Content-Wrapper {
+  height: 500px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 50px;
 }
-.course-content-wrapper h1 {
+.Course-Content-Wrapper h1 {
   font-size: 24px;
   font-weight: lighter;
   text-align: center;
   margin: 20px 0 5px 0;
 }
-.course-content-caption {
+.Course-Content-Caption {
   text-align: right;
 }
-.course-content-img {
+.Course-Content-Img {
   margin: 20px 0;
 }
 .Course-Menu {
@@ -281,25 +282,36 @@ img {
   text-decoration: none;
   border-radius: 3px 3px 0 0;
 }
-.Course-Menu li a.active {
+.Course-Menu li a.Active {
   background: #333;
   color: #fff;
 }
-.Course-Menu li a:not(.active):hover {
+.Course-Menu li a:not(.Active):hover {
   color: #fff;
   background: rgb(0, 160, 230);
   transition: 0.4s;
 }
-.content.active {
+.Content.Active {
   background: #333;
   color: #fff;
   min-height: 150px;
   padding: 12px;
   display: block;
 }
-
-.content {
+.Content {
   display: none;
+}
+.Course-Price-Link {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Course-Price-Link a{
+  color: skyblue;
+  text-decoration-line: underline;
+}
+.Course-Price-Link a:hover{
+  color: rgb(0, 200, 255);
+  transition: .3s;
 }
 .Course-Btn {
   margin-left: auto;
@@ -363,14 +375,16 @@ img {
 .About-Message {
   margin-left: 36px;
   margin-right: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
   text-align: center;
 }
 .About-Message h1 {
-  padding-top: 30px;
+  letter-spacing: .1em;
+  padding-top: 80px;
   padding-bottom: 18px;
 }
 .About-Message p {
+  letter-spacing: .08em;
   padding-top: 5px;
 }
 .Instagram-BG {
@@ -383,10 +397,6 @@ img {
 .About-Btn {
   margin-left: auto;
   margin-right: auto;
-}
-.Classroom-Nav {
-  padding-top: 14px;
-  font-size: 14px;
 }
 
 /* Classroom */
@@ -406,6 +416,12 @@ img {
   margin-right: 15%;
   padding-top: 10px;
 }
+.Classroom-Nav {
+  text-align: center;
+  padding-top: 14px;
+  font-size: 14px;
+  color: #666;
+}
 .Classroom-Btn-BG {
   margin-top: 30px;
 }
@@ -415,32 +431,34 @@ img {
 
 /* PRICE */
 .Price-Wrapper {
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 96%;
+  background: #fff;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .Price-Table *, .Price-Table *:before, .Price-Table *:after {
-	-webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 .Price-Table {
-	width: 100%;
+  width: 100%;
 	margin: 0 auto;
 	border-spacing: 1px 0;
 	border-collapse: separate;
 }
 .Price-Table th, .Price-Table td {
-	padding: 10px;
+  padding: 10px;
 }
 /*Headerブロック*/
 .Price-Table th {
-	position: relative;
+  position: relative;
 	z-index: 1;
 	width: 125px;
-	height: 50px;
+  height: 50px;
+  font-size: 12px;
 	text-align: center;
 	vertical-align: middle;
-	color: #ffffff;
+	color: #fff;
 	border-radius: 5px 5px 0 0;
 	background: #88b7d5;
 }
@@ -457,22 +475,22 @@ img {
 	left: 0;
 	content: '\f0d7';
 }
-.Price-Table th.group1 {
+.Price-Table th.Group1 {
   background: #2e9b72;
 }
-.Price-Table th.group1:after {
+.Price-Table th.Group1:after {
   color: #2e9b72;
 }
-.Price-Table th.group2 {
+.Price-Table th.Group2 {
   background: #da3c41;
 }
-.Price-Table th.group2:after {
-	color: #da3c41;
+.Price-Table th.Group2:after {
+  color: #da3c41;
 }
-.Price-Table th.group3 {
+.Price-Table th.Group3 {
   background: #131874;
 }
-.Price-Table th.group3:after {
+.Price-Table th.Group3:after {
   color: #131874;
 }
 /*メインブロック*/
@@ -482,34 +500,65 @@ img {
   border: none;
   font-size: 16px;
 }
-.Price-Table .group0 {
+.Price-Table .Group0 {
   font-size: 12px;
-  font-weight: bold;
+  width: 26%;
 }
 .Price-Table td span {
   font-size: 10px;
 }
 .Price-Table tr:last-child td {
-	border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
 }
-.Price-Table tr:nth-child(2n+1) td.group1 {
-	background: #8cd9bc;
+.Price-Table tr:nth-child(2n+1) td.Group1 {
+  background: #8cd9bc;
 }
-.Price-Table tr:nth-child(2n+0) td.group1 {
-	background: #c3e4d8;
+.Price-Table tr:nth-child(2n+0) td.Group1 {
+  background: #c3e4d8;
 }
-.Price-Table tr:nth-child(2n+1) td.group2 {
-	background: #f2c2c2;
+.Price-Table tr:nth-child(2n+1) td.Group2 {
+  background: #f2c2c2;
 }
-.Price-Table tr:nth-child(2n+0) td.group2 {
-	background: #f7e1e1;
+.Price-Table tr:nth-child(2n+0) td.Group2 {
+  background: #f7e1e1;
 }
-.Price-Table tr:nth-child(2n+1) td.group3 {
-	background: #a9bce2;
+.Price-Table tr:nth-child(2n+1) td.Group3 {
+  background: #a9bce2;
 }
-.Price-Table tr:nth-child(2n+0) td.group3 {
-	background: #d7e1f4;
+.Price-Table tr:nth-child(2n+0) td.Group3 {
+  background: #d7e1f4;
 }
+.Price-Content {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 10px;
+}
+.Price-Nav {
+  text-align: center;
+  padding-top: 14px;
+  font-size: 14px;
+  color: #666;
+}
+.Price-Btn-BG {
+  margin-top: 30px;
+}
+.Price-Btn {
+  margin: 0 auto;
+}
+.Price-Carender-Link {
+  text-align: center;
+  padding-top: 5px;
+}
+.Price-Carender-Link a{
+  color: skyblue;
+  text-decoration-line: underline;
+}
+.Price-Carender-Link a:hover{
+  color: rgb(0, 200, 255);
+  transition: .3s;
+}
+
 /* PCサイト用レスポンシブ */
 @media (min-width: 700px) {
   .pc-nav {

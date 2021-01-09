@@ -35,21 +35,21 @@
 
   
   const menuItems = document.querySelectorAll('.Course-Menu li a');
-  const contents = document.querySelectorAll('.content');
+  const contents = document.querySelectorAll('.Content');
 
   menuItems.forEach(clickedItem => {
     clickedItem.addEventListener('click', e => {
       e.preventDefault();
 
       menuItems.forEach(item => {
-        item.classList.remove('active');
+        item.classList.remove('Active');
       });
-      clickedItem.classList.add('active');
+      clickedItem.classList.add('Active');
 
       contents.forEach(content => {
-        content.classList.remove('active');
+        content.classList.remove('Active');
       });
-      document.getElementById(clickedItem.dataset.id).classList.add('active');
+      document.getElementById(clickedItem.dataset.id).classList.add('Active');
     });
   });
 }

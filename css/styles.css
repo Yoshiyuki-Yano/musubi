@@ -453,16 +453,17 @@ img {
 .Carender-Area {
   background: linear-gradient(rgb(0, 150, 200),rgb(150, 255, 255));
   margin: 0 2%;
+  padding: 20px 0;
 }
 .Carender-Today {
   color: #fff;
   display: grid;
   gap: 10px;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 60px 1fr;
   padding: 10px;
 }
 .Today-Week {
-  width: 50px;
+  width: 60px;
   background:rgba(0, 150, 200, .5);
   writing-mode: vertical-rl;
   transform: rotate(180deg);
@@ -482,6 +483,7 @@ img {
   font-size: 18px;
   width: 96%;
   margin: 1em auto;
+  padding: 20px 0 30px 0;
 }
 .Carender-Area thead:first-child {
   border-bottom: 1px #fff solid;
@@ -502,9 +504,6 @@ img {
 .Carender-Area tbody td:last-child {
   color: blue;
 }
-.Carender-Area tfoot {
-  font-weight: bold;
-}
 .Carender-Area td.disabled {
   opacity: 0.3;
 }
@@ -521,13 +520,21 @@ img {
 #prev:hover,
 #next:hover {
   color: #fff;
+  transition: .2s;
 }
 #today {
-  background: linear-gradient(rgb(255, 180, 255),rgb(200, 100, 200));
+  background: linear-gradient(rgb(220, 220, 220),rgb(135, 135, 135));
   cursor: pointer;
   user-select: none;
-  color: #fff;
-  border-radius: 3px;
+  color: #432;
+  border-radius: 2px;
+}
+#today:hover {
+  opacity: .9;
+  transition: .2s;
+}
+.Carender-Nav {
+  height: 300px;
 }
 /* PRICE */
 .Price-Wrapper {

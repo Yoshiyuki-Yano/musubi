@@ -449,6 +449,86 @@ img {
   margin: 0 auto;
 }
 
+/* Carender */
+.Carender-Area {
+  background: linear-gradient(rgb(0, 150, 200),rgb(150, 255, 255));
+  margin: 0 2%;
+}
+.Carender-Today {
+  color: #fff;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 5fr;
+  padding: 10px;
+}
+.Today-Week {
+  width: 50px;
+  background:rgba(0, 150, 200, .5);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  padding-top: .5em;
+  font-size: 30px;
+}
+.Today-Date {
+  font-family: 'Dancing Script', sans-serif;
+  height: 200px;
+  line-height: 200px;
+  font-size: 180px;
+  text-align: center;
+  background:rgba(0, 150, 200, .5);
+}
+.Carender-Table {
+  border-collapse: collapse;
+  font-size: 18px;
+  width: 96%;
+  margin: 1em auto;
+}
+.Carender-Area thead:first-child {
+  border-bottom: 1px #fff solid;
+}
+.Carender-Area th,
+.Carender-Area td {
+  padding: 9px;
+  text-align: center;
+}
+.Carender-Title[colspan="5"] {
+  text-align: left;
+  color: #fff;
+  font-size: 24px;
+}
+.Carender-Area tbody td:first-child {
+  color: red;
+}
+.Carender-Area tbody td:last-child {
+  color: blue;
+}
+.Carender-Area tfoot {
+  font-weight: bold;
+}
+.Carender-Area td.disabled {
+  opacity: 0.3;
+}
+.Carender-Area td.today {
+  font-weight: bold;
+}
+#prev,
+#next {
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+#prev:hover,
+#next:hover {
+  color: #fff;
+}
+#today {
+  background: linear-gradient(rgb(255, 180, 255),rgb(200, 100, 200));
+  cursor: pointer;
+  user-select: none;
+  color: #fff;
+  border-radius: 3px;
+}
 /* PRICE */
 .Price-Wrapper {
   width: 96%;
@@ -506,12 +586,6 @@ img {
 }
 .Price-Table th.Group2:after {
   color: #da3c41;
-}
-.Price-Table th.Group3 {
-  background: #131874;
-}
-.Price-Table th.Group3:after {
-  color: #131874;
 }
 /*メインブロック*/
 .Price-Table tr td {
@@ -578,43 +652,6 @@ img {
   color: rgb(0, 200, 255);
   transition: .3s;
 }
-/* Carender */
-.Carender-Area {
-  font-size: 18px;
-  margin: 0 auto;
-}
-.Carender-Area table {
-  border-collapse: collapse;
-}
-.Carender-Area thead:first-child {
-  border-bottom: 1px rgb(0, 150, 200) solid;
-}
-.Carender-Area th,
-.Carender-Area td {
-  padding: 14px;
-  text-align: center;
-}
-.Carender-Area tbody td:first-child {
-  color: red;
-}
-.Carender-Area tbody td:last-child {
-  color: blue;
-}
-.Carender-Area tfoot {
-  font-weight: bold;
-}
-.Carender-Area td.disabled {
-  opacity: 0.3;
-}
-.Carender-Area td.today {
-  font-weight: bold;
-}
-#prev,
-#next,
-#today {
-  cursor: pointer;
-  user-select: none;
-}
 .form-area {
   max-width: 480px;
   margin: 0 auto;
@@ -622,7 +659,6 @@ img {
 }
 .contact-title {
   font-weight: normal;
-  font-family: 'Philosopher', sans-serif;
   font-size: 40px;
   text-align: center;
   padding: 30px;

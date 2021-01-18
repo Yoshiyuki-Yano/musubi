@@ -54,6 +54,7 @@
     });
   });
 
+  // カレンダー
   const today = new Date();
   let year = today.getFullYear();
   let month = today.getMonth();
@@ -111,7 +112,7 @@
   }
 
   function renderTitle() {
-    const title = `${year}/${String(month + 1).padStart(2, '0')}`;
+    const title = `${year}年${String(month + 1).padStart(2, '0')}月`;
     document.getElementById('title').textContent = title;
   }
 

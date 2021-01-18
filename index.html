@@ -225,12 +225,16 @@
     </div>
     <div class="Carender-Wrapper">
       <div class="Carender-Area">
-        <table>
+        <div class="Carender-Today">
+          <div class="Today-Week">Monday</div>
+          <div class="Today-Date">18.</div>
+        </div>
+        <table class="Carender-Table">
           <thead>
             <tr>
-              <th id="prev">&lt;</th>
-              <th id="title" colspan="5"></th>
-              <th id="next">&gt;</th>
+              <th id="title" class="Carender-Title" colspan="5"></th>
+              <th id="prev" class="Carender-Prev"><i class="fas fa-caret-left"></i></th>
+              <th id="next" class="Carender-Next"><i class="fas fa-caret-right"></i></th>
             </tr>
             <tr>
               <th>Sun</th>
@@ -246,7 +250,7 @@
           </tbody>
           <tfoot>
             <tr>
-              <td id="today" colspan="7">Today</td>
+              <td id="today" colspan="7">今月に戻る</td>
             </tr>
           </tfoot>
         </table>
@@ -265,27 +269,23 @@
             <th class="Group0"></th>
             <th class="Group1">30分</th>
             <th class="Group2">60分</th>
-            <th class="Group3">90分</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td class="Group0">ソロ</td>
-            <td class="Group1">¥16,000<br><span>/月額</span></td>
-            <td class="Group2">¥20,000<br><span>/月額</span></td>
-            <td class="Group3">¥24,000<br><span>/月額</span></td>
+            <td class="Group1">¥5,000</td>
+            <td class="Group2">¥8,000</td>
           </tr>
           <tr>
             <td class="Group0">アンサンブル</td>
-            <td class="Group1">¥8,000<br><span>×人数/月額</span></td>
-            <td class="Group2">¥12,000<br><span>×人数/月額</span></td>
-            <td class="Group3">¥16,000<br><span>×人数/月額</span></td>
+            <td class="Group1">¥3,000<br><span>×人数</span></td>
+            <td class="Group2">¥5,000<br><span>×人数</span></td>
           </tr>
           <tr>
             <td class="Group0">受験対策</td>
-            <td class="Group1">¥16,000<br><span>/月額</span></td>
-            <td class="Group2">¥20,000<br><span>/月額</span></td>
-            <td class="Group3">¥24,000<br><span>/月額</span></td>
+            <td class="Group1">¥5,000</td>
+            <td class="Group2">¥8,000</td>
           </tr>
         </tbody>
       </table>
@@ -330,7 +330,6 @@
               <input type="submit" class="Btn" value="送信">
             </div>
           </div>
-          
           <p class="form-info">このフォームはGoogle フォームを使用しています。</p>
         </form>
       </div>

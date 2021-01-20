@@ -431,10 +431,10 @@ img {
   box-shadow: 50px 50px rgb(0, 150, 200);
 }
 .Classroom-Content {
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding-top: 10px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
 }
 .Classroom-Nav {
   text-align: center;
@@ -666,6 +666,44 @@ img {
   transition: .3s;
 }
 /* 問合せ */
+input,
+textarea {
+  box-sizing: border-box;
+}
+label {
+  cursor: pointer;
+}
+input {
+  background-color: #eee;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: border 0.2s ease-out;
+  height: 40px;
+  outline: 0;
+}
+input:focus {
+  border: 1px solid #24a7ff;
+}
+.Radio-Plain {
+  width: 20px;
+  height: 20px;
+  top: 4px;
+  position: relative;
+}
+textarea {
+  padding: 10px;
+  height: 80px;
+  border-radius: 4px;
+  resize: none;
+  border: 1px solid transparent;
+  transition: border 0.2s ease-out;
+  outline: none;
+  background-color: #eee;
+}
+textarea:focus {
+  border: 1px solid #24a7ff;
+}
+
 
 /* PCサイト用レスポンシブ */
 @media (min-width: 700px) {

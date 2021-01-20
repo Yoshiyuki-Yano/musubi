@@ -204,9 +204,7 @@
       </div>
       <div class="Classroom-Content">
         <p>名古屋市千種区にある講師宅でも<br>レッスンを受講できます。</p>
-        <p>防音室の用意ができない方や<br>千種区内にお住まいの方はご相談ください。</p>
-        <p>市バス〇〇駅から徒歩○分</p>
-        <p>名鉄〇〇駅から徒歩○分</p>
+        <p>防音室の用意ができない方や<br>近くにお住まいの方はご相談ください。</p>
         <p class="Classroom-Nav">※詳しくは問い合せてください</p>
         <div class="Classroom-Btn-BG">
           <div class="Btn Classroom-Btn">
@@ -225,10 +223,10 @@
     </div>
     <div class="Carender-Wrapper">
       <div class="Carender-Area">
-        <div class="Carender-Today">
+        <!-- <div class="Carender-Today">
           <div class="Today-Week">Monday</div>
           <div class="Today-Date">18.</div>
-        </div>
+        </div> -->
         <table class="Carender-Table">
           <thead>
             <tr>
@@ -237,13 +235,21 @@
               <th id="next" class="Carender-Next"><i class="fas fa-caret-right"></i></th>
             </tr>
             <tr>
-              <th>Sun</th>
+              <th>日</th>
+              <th>月</th>
+              <th>火</th>
+              <th>水</th>
+              <th>木</th>
+              <th>金</th>
+              <th>土</th>
+              <!-- <th>Sun</th>
               <th>Mon</th>
               <th>Tue</th>
               <th>Wed</th>
               <th>Thu</th>
               <th>Fri</th>
               <th>Sat</th>
+              <th>Sun</th> -->
             </tr>
           </thead>
           <tbody>
@@ -278,15 +284,15 @@
         <tbody>
           <tr>
             <td class="Group0">30分</td>
-            <td class="Group1">¥5,000</td>
-            <td class="Group2">¥3,000<br><span>×人数</span></td>
-            <td class="Group3">¥5,000</td>
+            <td class="Group1">¥3,000</td>
+            <td class="Group2">¥2,000<br><span>×人数</span></td>
+            <td class="Group3">¥3,000</td>
           </tr>
           <tr>
             <td class="Group0">60分</td>
-            <td class="Group1">¥8,000</td>
-            <td class="Group2">¥5,000<br><span>×人数</span></td>
-            <td class="Group3">¥8,000</td>
+            <td class="Group1">¥5,000</td>
+            <td class="Group2">¥3,000<br><span>×人数</span></td>
+            <td class="Group3">¥5,000</td>
           </tr>
         </tbody>
       </table>
@@ -313,29 +319,44 @@
         <form action="https://docs.google.com/forms/u/0/d/1rmsUo-xcCFQISFZvCTsqGVkx7iv62JtvypREhz5uKXI/prefill" target="_self" method="POST" id="mG61Hd">
           <ul>
             <li>
-              <label>お名前</label><br>
-              <input name="entry.739706171" type="text" required="required" placeholder="山田 太郎">
+              <label>お名前<br>
+                <input name="entry.739706171" type="text" required="required" placeholder="山田 太郎">
+              </label>
             </li>
             <li>
-              <label>性別</label><br>
-              <input name="entry.798420112" type="radio" required="required" value="male">男性<br>
-              <input name="entry.798420112" type="radio" required="required" value="female">女性
+              性別<br>
+              <label>
+                <input name="entry.798420112" type="radio" required="required" value="male" class="Radio-Plain">男性
+              </label>
+              <br>
+              <label>
+                <input name="entry.798420112" type="radio" required="required" value="female" class="Radio-Plain">女性
+              </label>
+              </li>
+            <li>
+              <label>年齢<br>
+                <input name="entry.1737841356" type="text" placeholder="20">歳
+              </label>
+              </li>
+            <li>
+              希望コース<br>
+              <label>
+                <input name="entry.1696189233" type="radio" required="required" value="solo" class="Radio-Plain">声楽ソロコース<br>
+              </label>
+              <label>
+                <input name="entry.1696189233" type="radio" required="required" value="ensemble" class="Radio-Plain">声楽アンサンブルコース<br>
+              </label>
+              <label>
+                <input name="entry.1696189233" type="radio" required="required" value="exam" class="Radio-Plain">受験対策コース
+              </label>
             </li>
             <li>
-              <label>年齢</label><br>
-              <input name="entry.1737841356" type="text" placeholder="20">歳
-            </li>
-            <li>
-              <label>希望コース</label><br>
-              <input name="entry.1696189233" type="radio" required="required" value="solo">声楽ソロコース<br>
-              <input name="entry.1696189233" type="radio" required="required" value="ensemble">声楽アンサンブルコース<br>
-              <input name="entry.1696189233" type="radio" required="required" value="exam">受験対策コース
-            </li>
-            <li>
-              <label>メッセージ</label><br>
-              <textarea name="entry.1996352210" placeholder="メッセージ"></textarea>
+              <label>メッセージ<br>
+                <textarea name="entry.1996352210" placeholder="メッセージ"></textarea>
+              </label>
             </li>
           </ul>
+          <button type="submit" value="send" class="Form-Send-Btn">送信する</button>
         </form>
       </div>
     </div>

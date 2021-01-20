@@ -452,6 +452,7 @@ img {
 /* Carender */
 .Carender-Area {
   background: linear-gradient(rgb(0, 150, 200),rgb(150, 255, 255));
+  max-width: 670px;
   margin: 0 2%;
   padding: 20px 0;
 }
@@ -539,6 +540,7 @@ img {
 /* PRICE */
 .Price-Wrapper {
   width: 96%;
+  max-width: 670px;
   background: #fff;
   margin-left: 2%;
   margin-right: 2%;
@@ -556,7 +558,6 @@ img {
 .Price-Table th, .Price-Table td {
   padding: 10px;
 }
-/*Headerブロック*/
 .Price-Table th {
   position: relative;
 	z-index: 1;
@@ -594,7 +595,12 @@ img {
 .Price-Table th.Group2:after {
   color: #da3c41;
 }
-/*メインブロック*/
+.Price-Table th.Group3 {
+  background: rgb(0, 47, 255);
+}
+.Price-Table th.Group3:after {
+  color: rgb(0, 47, 255);
+}
 .Price-Table tr td {
   padding-top: 15px;
 	text-align: center;
@@ -659,50 +665,7 @@ img {
   color: rgb(0, 200, 255);
   transition: .3s;
 }
-.form-area {
-  max-width: 480px;
-  margin: 0 auto;
-  padding: 40px auto;
-}
-.contact-title {
-  font-weight: normal;
-  font-size: 40px;
-  text-align: center;
-  padding: 30px;
-}
-label {
-  font-size: 18px;
-  margin-bottom: 10px;
-  display: block;
-}
-input[type="text"],
-input[type="email"],
-textarea {
-  background: #eee;
-  border: rgb(0, 200, 255) solid 1px;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 14px;
-}
-input[type="text"],
-input[type="email"] {
-  width: 100%;
-  max-width: 240px;
-}
-textarea {
-  width: 100%;
-  max-width: 350px;
-  height: 6rem;
-}
-input[type="submit"] {
-  cursor: pointer;
-  line-height: 1;
-}
-.form-info {
-  font-size: 12px;
-  margin-top: 30px;
-  text-align: center;
-}
+/* 問合せ */
 
 /* PCサイト用レスポンシブ */
 @media (min-width: 700px) {
@@ -754,5 +717,11 @@ input[type="submit"] {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr;
+  }
+  .Carender-Area {
+    margin: 0 auto;
+  }
+.Price-Wrapper {
+  margin: 0 auto;
   }
 }

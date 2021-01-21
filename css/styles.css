@@ -458,26 +458,17 @@ img {
 }
 .Carender-Today {
   color: #fff;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: 60px 1fr;
-  padding: 10px;
-}
-.Today-Week {
-  width: 60px;
-  background:rgba(0, 150, 200, .5);
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  padding-top: .5em;
-  font-size: 30px;
-}
-.Today-Date {
   font-family: 'Dancing Script', sans-serif;
-  height: 200px;
-  line-height: 200px;
-  font-size: 180px;
   text-align: center;
-  background:rgba(0, 150, 200, .5);
+}
+.Today-Years {
+  padding-top: .5em;
+  font-size: 20px;
+}
+.Today-Months {
+  height: 150px;
+  line-height: 150px;
+  font-size: 100px;
 }
 .Carender-Table {
   border-collapse: collapse;
@@ -493,11 +484,6 @@ img {
 .Carender-Area td {
   padding: 9px;
   text-align: center;
-}
-.Carender-Title[colspan="5"] {
-  text-align: left;
-  color: #fff;
-  font-size: 24px;
 }
 .Carender-Area tbody td:first-child {
   color: red;

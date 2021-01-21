@@ -112,8 +112,10 @@
   }
 
   function renderTitle() {
-    const title = `${year}年${String(month + 1).padStart(2, '0')}月`;
-    document.getElementById('title').textContent = title;
+    const years = `${year}.`;
+    const months = `${String(month + 1)}`;
+    document.getElementById('years').textContent = years;
+    document.getElementById('months').textContent = months;
   }
 
   function renderWeeks() {

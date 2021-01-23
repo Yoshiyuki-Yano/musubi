@@ -180,7 +180,7 @@ img {
   background: radial-gradient(ellipse at center, rgba( 255, 255, 255, .3) 20%,rgba( 255, 255, 255, .15) 40%,rgba( 255, 255, 255, 0) 100%),url(../img/IMG_0381.JPG) center center;
   background-repeat:  no-repeat;
   background-size: cover;
-  position:relative;
+  position: relative;
 }
 .Top-Title {
   position: absolute;
@@ -244,6 +244,7 @@ img {
 /* セクション共通 */
 .Section-Title-BG {
   padding-top: 120px;
+  padding-bottom: 50px;
   height: 100px;
   line-height: 100px;
   text-align: center;
@@ -286,7 +287,7 @@ img {
   width: 100%;
 }
 .Course-Menu li {
-  width: calc(100%/4);
+  width: calc(100%/3);
 }
 .Course-Menu li a {
   display: inline-block;
@@ -378,26 +379,6 @@ img {
 .Profile-Name-En {
   font-size: 18px;
   color: #90c3d4;
-}
-.About-Img {
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 36px;
-  padding-right: 36px;
-}
-.About-Img1 .About-Img2 .About-Img3 {
-  display: block;
-  object-fit: cover;
-}
-.About-Img1-Container {
-  margin-top: 4px;
-}
-.About-Img2-Container {
-  margin-top: 4px;
-}
-.About-Img3-Container {
-  margin-top: 4px;
 }
 .About-Message {
   margin-left: 36px;
@@ -570,22 +551,22 @@ img {
 	content: '\f0d7';
 }
 .Price-Table th.Group1 {
-  background: #2e9b72;
+  background: rgb(0, 191, 255);
 }
 .Price-Table th.Group1:after {
-  color: #2e9b72;
+  color: rgb(0, 191, 255);
 }
 .Price-Table th.Group2 {
-  background: #da3c41;
+  background: rgb(221, 160, 221);
 }
 .Price-Table th.Group2:after {
-  color: #da3c41;
+  color: rgb(221, 160, 221);
 }
 .Price-Table th.Group3 {
-  background: rgb(0, 47, 255);
+  background: rgb(50, 205, 50);
 }
 .Price-Table th.Group3:after {
-  color: rgb(0, 47, 255);
+  color: rgb(50, 205, 50);
 }
 .Price-Table tr td {
   padding-top: 15px;
@@ -604,22 +585,22 @@ img {
   border-radius: 0 0 5px 5px;
 }
 .Price-Table tr:nth-child(2n+1) td.Group1 {
-  background: #8cd9bc;
+  background: rgba(0, 191, 255, 0.5);
 }
 .Price-Table tr:nth-child(2n+0) td.Group1 {
-  background: #c3e4d8;
+  background: rgba(0, 191, 255, 0.25);
 }
 .Price-Table tr:nth-child(2n+1) td.Group2 {
-  background: #f2c2c2;
+  background: rgba(221, 160, 221, 0.5);
 }
 .Price-Table tr:nth-child(2n+0) td.Group2 {
-  background: #f7e1e1;
+  background: rgba(221, 160, 221, 0.25);
 }
 .Price-Table tr:nth-child(2n+1) td.Group3 {
-  background: #a9bce2;
+  background: rgba(50, 205, 50, 0.5);
 }
 .Price-Table tr:nth-child(2n+0) td.Group3 {
-  background: #d7e1f4;
+  background: rgba(50, 205, 50, 0.25);
 }
 .Price-Content {
   width: 80%;

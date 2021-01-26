@@ -176,7 +176,7 @@ img {
   padding-top: 71px;
 }
 .Top-Wrapper {
-  height: calc(100vh - 71px - 150px);
+  height: calc(100vh - 71px - 300px);
   background: radial-gradient(ellipse at center, rgba( 255, 255, 255, .3) 20%,rgba( 255, 255, 255, .15) 40%,rgba( 255, 255, 255, 0) 100%),url(../img/IMG_0381.JPG) center center;
   background-repeat:  no-repeat;
   background-size: cover;
@@ -209,10 +209,10 @@ img {
 .Top-Nav li a {
   display: block;
   height: 50px;
+  line-height: 50px;
   font-size: 18px;
   text-align: center;
   color: #fff;
-  line-height: 50px;
 }
 .Top-Nav li:nth-child(1) {
   background:rgb(0, 150, 200);
@@ -222,6 +222,15 @@ img {
 }
 .Top-Nav li:nth-child(3) {
   background: rgb(0, 200, 255);
+}
+.Top-Nav li:nth-child(4) {
+  background: rgb(0, 220, 255);
+}
+.Top-Nav li:nth-child(5) {
+  background: rgb(0, 240, 255);
+}
+.Top-Nav li:nth-child(6) {
+  background: rgb(0, 255, 255);
 }
 /* ボタンテンプレート */
 .Btn {
@@ -292,13 +301,18 @@ img {
 .Course-Menu li a {
   display: inline-block;
   width: 100%;
-  height: 40px;
-  line-height: 40px;
+  height: 60px;
   text-align: center;
   padding: 8px 0;
   color: #333;
   text-decoration: none;
   border-radius: 3px 3px 0 0;
+}
+.Course-Menu li a h1 {
+  font-size: 18px;
+}
+.Course-Menu li a p {
+  font-size: 14px;
 }
 .Course-Menu li a.Active {
   background: #333;
@@ -633,6 +647,18 @@ img {
   transition: .3s;
 }
 /* 問合せ */
+.Form-Area {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.Form-Area li {
+  padding: 15px 0;
+  border-bottom: #ccc 1px solid;
+}
+.Form-Area li:first-child {
+  border-top: #ccc 1px solid;
+}
 input,
 textarea {
   box-sizing: border-box;
@@ -670,7 +696,33 @@ textarea {
 textarea:focus {
   border: 1px solid #24a7ff;
 }
-
+.Age-Form {
+  width: 50px;
+}
+.Message-Form {
+  width: 100%;
+  max-width: 480px;
+}
+.Form-Send-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: rgb(0, 160, 230);
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Form-Send-Btn:hover {
+  opacity: .8;
+  transition: .2s;
+}
 
 /* PCサイト用レスポンシブ */
 @media (min-width: 700px) {
@@ -695,13 +747,13 @@ textarea:focus {
   .sp-nav {
     display: none;
   }
-  .Top-Wrapper {
-    height: calc(100vh - 121px);
-  }
   .Top-Nav {
     height: 50px;
     max-width: 1000px;
     margin: 0 auto;
+  }
+  .Top-Wrapper {
+    height: calc(100vh - 171px);
   }
   .Top-Nav ul {
     display: grid;
@@ -726,7 +778,7 @@ textarea:focus {
   .Carender-Area {
     margin: 0 auto;
   }
-.Price-Wrapper {
-  margin: 0 auto;
+  .Price-Wrapper {
+    margin: 0 auto;
   }
 }

@@ -6,9 +6,9 @@
   const close = document.getElementById('close');
   const mask = document.getElementById('mask');
   const instagram = document.getElementById('overlay-instagram');
-  const Course = document.getElementById('overlay-Course');
   const About = document.getElementById('overlay-About');
-  const ClassRoom = document.getElementById('overlay-ClassRoom');
+  const Course = document.getElementById('overlay-Course');
+  const Profile = document.getElementById('overlay-Profile');
   const Price = document.getElementById('overlay-Price');
   const Carender = document.getElementById('overlay-Carender');
   const Form = document.getElementById('overlay-Form');
@@ -30,7 +30,7 @@
   overlayClose(instagram);
   overlayClose(Course);
   overlayClose(About);
-  overlayClose(ClassRoom);
+  overlayClose(Profile);
   overlayClose(Price);
   overlayClose(Carender);
   overlayClose(Form);

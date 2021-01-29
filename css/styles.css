@@ -175,6 +175,7 @@ img {
 }
 .Top {
   padding-top: 71px;
+  height: calc(100vh - 71px);
 }
 .Top-Wrapper {
   height: calc(100vh - 71px - 300px);
@@ -191,12 +192,11 @@ img {
   -webkit-transform: translateY(-50%) translateX(-50%);
 }
 .Top-Title {
-  color: #800000;
-  font-weight: lighter;
   text-align: center;
 }
 .Top-Title h1 {
   font-family: 'Dancing Script', cursive;
+  color: #800000;
   font-size: 60px;
 }
 .Top-Title p {
@@ -246,6 +246,37 @@ img {
   font-size: 22px;
   font-weight: normal;
   letter-spacing: .08em;
+}
+/* ABOUT */
+.About-Img-BG {
+  height: 30vh;
+  width: 100%;
+}
+.About-Img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.About-Content {
+  font-size: 14px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(#f5f5dc,#ff8c00);
+}
+.About-Content h1 {
+  font-size: 26px;
+  text-align: center;
+  color: #432;
+  margin-bottom: 50px;
+}
+.About-Content li {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  color: #432;
+  background: #f5f5dc;
+  margin: 20px 10px;
+  box-shadow: 0 0 8px gray;
 }
 /* コース */
 .Course-Wrapper {
@@ -337,7 +368,7 @@ img {
   background: #333;
   padding-bottom: 50px;
 }
-/* ABOUT */
+/* PROFILE */
 .Profile-Wrapper {
   max-width: 1000px;
   margin: 0 auto;

@@ -302,8 +302,13 @@ img {
   margin: 20px 0 50px 0;
 }
 .Course-Content-Img {
-  margin: 20px auto;
+  margin: 40px auto;
   max-width: 600px;
+}
+.Course-Content-Img img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }
 .Course-Menu {
   width: 100%;
@@ -535,22 +540,22 @@ img {
 	content: '\f0d7';
 }
 .Price-Table th.Group1 {
-  background: hsla(33, 100%, 50%, 1);
+  background: gray;
 }
 .Price-Table th.Group1:after {
-  color: hsla(0, 100%, 25%, 1);
+  color: gray;
 }
 .Price-Table th.Group2 {
-  background: hsla(0, 100%, 25%, 1);
+  background: gray;
 }
 .Price-Table th.Group2:after {
-  color: hsla(0, 100%, 25%, 1);
+  color: gray;
 }
 .Price-Table th.Group3 {
-  background: hsla(0, 100%, 25%, 1);
+  background: gray;
 }
 .Price-Table th.Group3:after {
-  color: hsla(0, 100%, 25%, 1);
+  color: gray;
 }
 .Price-Table tr td {
   padding-top: 15px;
@@ -569,22 +574,22 @@ img {
   border-radius: 0 0 5px 5px;
 }
 .Price-Table tr:nth-child(2n+1) td.Group1 {
-  background: hsla(0, 100%, 25%, .5);
+  background: rgba(0, 0, 0, 0.2);
 }
 .Price-Table tr:nth-child(2n+0) td.Group1 {
-  background: hsla(0, 100%, 25%, .25);
+  background: rgba(0, 0, 0, 0.3);
 }
 .Price-Table tr:nth-child(2n+1) td.Group2 {
-  background: hsla(0, 100%, 25%, .5);
+  background: rgba(0, 0, 0, 0.2);
 }
 .Price-Table tr:nth-child(2n+0) td.Group2 {
-  background: hsla(0, 100%, 25%, .25);
+  background: rgba(0, 0, 0, 0.3);
 }
 .Price-Table tr:nth-child(2n+1) td.Group3 {
-  background: hsla(0, 100%, 25%, .5);
+  background: rgba(0, 0, 0, 0.2);
 }
 .Price-Table tr:nth-child(2n+0) td.Group3 {
-  background: hsla(0, 100%, 25%, .25);
+  background: rgba(0, 0, 0, 0.3);
 }
 .Price-Content {
   width: 80%;

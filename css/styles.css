@@ -216,22 +216,22 @@ img {
   color: #fff;
 }
 .Top-Nav li:nth-child(1) {
-  background: #7c0000;
+  background: hsla(0, 100%, 25%, 1);
 }
 .Top-Nav li:nth-child(2) {
-  background: #7e1616;
+  background: hsla(0, 85%, 25%, 1); 
 }
 .Top-Nav li:nth-child(3) {
-  background: #7e2626;
+  background: hsla(0, 70%, 25%, 1); 
 }
 .Top-Nav li:nth-child(4) {
-  background: #7e3434;
+  background: hsla(0, 55%, 25%, 1); 
 }
 .Top-Nav li:nth-child(5) {
-  background: #854545;
+  background: hsla(0, 40%, 25%, 1); 
 }
 .Top-Nav li:nth-child(6) {
-  background: #7c5959;
+  background: hsla(0, 25%, 25%, 1); 
 }
 
 /* セクション共通 */
@@ -369,27 +369,24 @@ img {
   padding-bottom: 50px;
 }
 /* PROFILE */
+.Profile {
+  width: 100%;
+}
 .Profile-Wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-  max-width: 700px;
-  padding-top: 18px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
   font-size: 16px;
+  width: 94%;
+  margin: 3%;
 }
-.Profile-Wrapper h1 {
-  text-align: center;
-  font-size: 20px;
-  letter-spacing: .08em;
-}
-.Profole-Img {
-  margin-bottom: 20px;
+.Profile-Img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .Profile-Introduction p {
   padding-bottom: 8px;
+  width: 600px;
+  margin: 0 auto;
 }
 .Profile-Name {
   padding-bottom: 14px;
@@ -400,16 +397,26 @@ img {
 }
 .Profile-Name-En {
   font-size: 18px;
-  color: #90c3d4;
+  color: hsla(0, 100%, 35%, 0.5);
 }
 .Instagram-BG {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 30px auto;
+  padding: 40px 20px 40px 20px;
+  max-width: 580px;
+  background: hsla(0, 70%, 30%, 1);
+  border-radius: 4px;
+  box-shadow: 0 0 8px gray;
 }
-
+.Instagram-BG h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', sans-serif;
+}
 /* Carender */
 .Carender-Area {
-  background: linear-gradient(#800000,#f5f5dc);
+  background: linear-gradient(#ff8c00,#f5f5dc);
   max-width: 670px;
   margin: 0 2%;
   padding: 20px 0;
@@ -528,22 +535,22 @@ img {
 	content: '\f0d7';
 }
 .Price-Table th.Group1 {
-  background: rgb(0, 191, 255);
+  background: hsla(33, 100%, 50%, 1);
 }
 .Price-Table th.Group1:after {
-  color: rgb(0, 191, 255);
+  color: hsla(0, 100%, 25%, 1);
 }
 .Price-Table th.Group2 {
-  background: rgb(221, 160, 221);
+  background: hsla(0, 100%, 25%, 1);
 }
 .Price-Table th.Group2:after {
-  color: rgb(221, 160, 221);
+  color: hsla(0, 100%, 25%, 1);
 }
 .Price-Table th.Group3 {
-  background: rgb(50, 205, 50);
+  background: hsla(0, 100%, 25%, 1);
 }
 .Price-Table th.Group3:after {
-  color: rgb(50, 205, 50);
+  color: hsla(0, 100%, 25%, 1);
 }
 .Price-Table tr td {
   padding-top: 15px;
@@ -553,7 +560,7 @@ img {
 }
 .Price-Table .Group0 {
   font-size: 12px;
-  width: 26%;
+  width: 15%;
 }
 .Price-Table td span {
   font-size: 10px;
@@ -562,22 +569,22 @@ img {
   border-radius: 0 0 5px 5px;
 }
 .Price-Table tr:nth-child(2n+1) td.Group1 {
-  background: rgba(0, 191, 255, 0.5);
+  background: hsla(0, 100%, 25%, .5);
 }
 .Price-Table tr:nth-child(2n+0) td.Group1 {
-  background: rgba(0, 191, 255, 0.25);
+  background: hsla(0, 100%, 25%, .25);
 }
 .Price-Table tr:nth-child(2n+1) td.Group2 {
-  background: rgba(221, 160, 221, 0.5);
+  background: hsla(0, 100%, 25%, .5);
 }
 .Price-Table tr:nth-child(2n+0) td.Group2 {
-  background: rgba(221, 160, 221, 0.25);
+  background: hsla(0, 100%, 25%, .25);
 }
 .Price-Table tr:nth-child(2n+1) td.Group3 {
-  background: rgba(50, 205, 50, 0.5);
+  background: hsla(0, 100%, 25%, .5);
 }
 .Price-Table tr:nth-child(2n+0) td.Group3 {
-  background: rgba(50, 205, 50, 0.25);
+  background: hsla(0, 100%, 25%, .25);
 }
 .Price-Content {
   width: 80%;

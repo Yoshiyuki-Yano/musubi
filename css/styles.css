@@ -32,10 +32,11 @@ ol, ul {
 }
 body {
   font-size: 14px;
-  font-family: 'M PLUS 1p', sans-serif;
+  /* font-family: 'M PLUS 1p', sans-serif; */
   color: #432;
   line-height: 1;
   background: #f5f5dc;
+  font-family: 'Playfair Display', serif;
 }
 a {
   text-decoration: none;
@@ -50,7 +51,7 @@ img {
   position: fixed;
   width: 100%;
   z-index: 10;
-  background: #f5f5dc;
+  background: #fff;
   height: 60px;
   padding: 5px 15px;
   border-bottom: #ddd solid 1px;
@@ -249,19 +250,27 @@ img {
 }
 /* ABOUT */
 .About-Img-BG {
+  background:
+  linear-gradient(
+  rgba( 0, 0, 0, 0.1),
+  rgba( 0, 0, 0, 0.7),
+  rgba( 0, 0, 0, 0.1)
+  ),
+  url(../img/Img4Wide.JPG);
+  background-size: cover;
+  background-position: center;
   height: 30vh;
+  line-height: 30vh;
+  text-align: center;
   width: 100%;
-}
-.About-Img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  color: #fff;
+  font-size: 22px;
 }
 .About-Content {
   font-size: 14px;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(#f5f5dc,#ff8c00);
+  background: linear-gradient(#ff8c00, #f5f5dc);
 }
 .About-Content h1 {
   font-size: 26px;
@@ -390,7 +399,7 @@ img {
 }
 .Profile-Introduction p {
   padding-bottom: 8px;
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
 }
 .Profile-Name {
@@ -540,22 +549,22 @@ img {
 	content: '\f0d7';
 }
 .Price-Table th.Group1 {
-  background: gray;
+  background: rgb(177, 141, 87);
 }
 .Price-Table th.Group1:after {
-  color: gray;
+  color: rgb(177, 141, 87);
 }
 .Price-Table th.Group2 {
-  background: gray;
+  background: rgb(119, 173, 48);
 }
 .Price-Table th.Group2:after {
-  color: gray;
+  color: rgb(119, 173, 48);
 }
 .Price-Table th.Group3 {
-  background: gray;
+  background: rgb(48, 133, 173);
 }
 .Price-Table th.Group3:after {
-  color: gray;
+  color: rgb(48, 133, 173);
 }
 .Price-Table tr td {
   padding-top: 15px;
@@ -574,22 +583,22 @@ img {
   border-radius: 0 0 5px 5px;
 }
 .Price-Table tr:nth-child(2n+1) td.Group1 {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(173, 123, 48, 0.2);
 }
 .Price-Table tr:nth-child(2n+0) td.Group1 {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(173, 123, 48, 0.3);
 }
 .Price-Table tr:nth-child(2n+1) td.Group2 {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(173, 123, 48, 0.2);
 }
 .Price-Table tr:nth-child(2n+0) td.Group2 {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(173, 123, 48, 0.3);
 }
 .Price-Table tr:nth-child(2n+1) td.Group3 {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(173, 123, 48, 0.2);
 }
 .Price-Table tr:nth-child(2n+0) td.Group3 {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(173, 123, 48, 0.3);
 }
 .Price-Content {
   width: 80%;
@@ -686,16 +695,17 @@ textarea:focus {
   padding-top: 20px;
   padding-bottom: 20px;
   cursor: pointer;
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   display: block;
   letter-spacing: 0.05em;
-  background: rgb(0, 160, 230);
+  background: #ff8c00;
   color: #fff;
   font-weight: bold;
   font-size: 20px;
 }
 .Form-Send-Btn:hover {
-  opacity: .8;
+  opacity: .6;
   transition: .2s;
 }
 

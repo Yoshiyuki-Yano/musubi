@@ -205,6 +205,21 @@ img {
   margin-top: 10px;
   color: #432;
 }
+.Top-CatchPhrase {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  font-size: 16px;
+  color: #432;
+  background: rgba(255, 255, 255, 0.5);
+  width: 350px;
+  height: 30px;
+  line-height: 30px;
+  padding: 8px;
+  text-align: center;
+  border: 1px #ddd solid;
+}
 .Top-Nav {
   height: 150px;
 }
@@ -245,8 +260,16 @@ img {
 }
 .Section-Title {
   font-size: 22px;
-  font-weight: normal;
+  font-weight: bold;
   letter-spacing: .08em;
+}
+.Gradation-Area1 {
+  height: 100px;
+  background: linear-gradient(beige,#222);
+}
+.Gradation-Area2 {
+  height: 100px;
+  background: linear-gradient(#222,beige);
 }
 /* ABOUT */
 .About-Img-BG {
@@ -280,14 +303,25 @@ img {
 }
 .About-Content li {
   display: block;
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  line-height: 60px;
   color: #432;
   background: #f5f5dc;
-  margin: 20px 10px;
+  margin: 30px 10px;
   box-shadow: 0 0 8px gray;
 }
+.About-Content li span {
+  color: darkorange;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 /* コース */
+.Course {
+  background: #222;
+  padding-bottom: 100px;
+  color: #fff;
+}
 .Course-Wrapper {
   width: 96%;
   margin: 30px auto 0 auto;
@@ -331,7 +365,7 @@ img {
   height: 60px;
   text-align: center;
   padding: 8px 0;
-  color: #432;
+  color: #fff;
   text-decoration: none;
   border-radius: 3px 3px 0 0;
 }
@@ -344,7 +378,7 @@ img {
 .Course-Menu li a.Active {
   background: #d2b48c;
   box-shadow: 0 0 8px gray;
-  color: #fff;
+  color: #432;
 }
 .Course-Menu li a:not(.Active):hover {
   color: #fff;
@@ -396,6 +430,7 @@ img {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+  box-shadow: 0 0 8px gray;
 }
 .Profile-Introduction p {
   padding-bottom: 8px;
@@ -429,6 +464,11 @@ img {
   font-family: 'Dancing Script', sans-serif;
 }
 /* Carender */
+.Carender {
+  color: #fff;
+  background: #222;
+  padding-bottom: 100px;
+}
 .Carender-Area {
   background: linear-gradient(#ff8c00,#f5f5dc);
   max-width: 670px;
@@ -632,7 +672,7 @@ img {
 }
 /* 問合せ */
 .Form-Area {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   font-size: 16px;
 }

@@ -9,7 +9,7 @@
   const About = document.getElementById('overlay-About');
   const Course = document.getElementById('overlay-Course');
   const Profile = document.getElementById('overlay-Profile');
-  const Price = document.getElementById('overlay-Price');
+  // const Price = document.getElementById('overlay-Price');
   const Carender = document.getElementById('overlay-Carender');
   const Form = document.getElementById('overlay-Form');
 
@@ -31,7 +31,7 @@
   overlayClose(Course);
   overlayClose(About);
   overlayClose(Profile);
-  overlayClose(Price);
+  // overlayClose(Price);
   overlayClose(Carender);
   overlayClose(Form);
   

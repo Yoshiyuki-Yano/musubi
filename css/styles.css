@@ -179,7 +179,7 @@ img {
   height: calc(100vh - 71px);
 }
 .Top-Wrapper {
-  height: calc(100vh - 71px - 300px);
+  height: calc(100vh - 71px - 250px);
   background: radial-gradient(ellipse at center, rgba( 255, 255, 255, .3) 20%,rgba( 255, 255, 255, .15) 40%,rgba( 255, 255, 255, 0) 100%),url(../img/Img3.jpeg) center center;
   background-repeat:  no-repeat;
   background-size: cover;
@@ -247,9 +247,6 @@ img {
 }
 .Top-Nav li:nth-child(5) {
   background: hsla(0, 40%, 25%, 1); 
-}
-.Top-Nav li:nth-child(6) {
-  background: hsla(0, 25%, 25%, 1); 
 }
 
 /* セクション共通 */
@@ -320,9 +317,7 @@ img {
 }
 /* コース */
 .Course {
-  background: #222;
   padding-bottom: 100px;
-  color: #fff;
 }
 .Course-Wrapper {
   width: 94%;
@@ -367,7 +362,7 @@ img {
   height: 60px;
   text-align: center;
   padding: 8px 0;
-  color: #fff;
+  color: #432;
   text-decoration: none;
   border-radius: 3px 3px 0 0;
 }
@@ -433,6 +428,9 @@ img {
   margin: 0 auto;
   box-shadow: 0 0 8px gray;
 }
+.Profile-Introduction {
+  margin-top: 50px;
+}
 .Profile-Introduction p {
   padding-bottom: 8px;
   max-width: 600px;
@@ -476,17 +474,16 @@ img {
 }
 .Carender-Today {
   color: #fff;
-  font-family: 'Dancing Script', sans-serif;
   text-align: center;
 }
 .Today-Years {
   padding-top: .5em;
-  font-size: 20px;
+  font-size: 22px;
 }
 .Today-Months {
   height: 150px;
   line-height: 150px;
-  font-size: 100px;
+  font-size: 120px;
 }
 .Carender-Table {
   border-collapse: collapse;
@@ -542,7 +539,7 @@ img {
   height: 300px;
 }
 /* PRICE */
-.Price-Wrapper {
+/* .Price-Wrapper {
   width: 96%;
   max-width: 670px;
   background: #f5f5dc;
@@ -668,7 +665,7 @@ img {
 .Price-Carender-Link a:hover{
   color: rgb(0, 200, 255);
   transition: .3s;
-}
+} */
 /* 問合せ */
 .Form-Area {
   width: 60%;

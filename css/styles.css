@@ -463,9 +463,6 @@ img {
   margin-bottom: 20px;
   font-family: 'Dancing Script', sans-serif;
 }
-.SNS-Space {
-  height: 50px;
-}
 /* Carender */
 .Carender {
   padding-bottom: 100px;
@@ -539,7 +536,16 @@ img {
   transition: .2s;
 }
 .Carender-Nav {
-  height: 300px;
+  height: 200px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+.Carender-Nav p{
+  padding-top: 10px;
+}
+.Twitter-BG {
+  width: 95%;
+  margin: 0 auto;
 }
 /* PRICE */
 /* .Price-Wrapper {

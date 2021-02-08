@@ -31,16 +31,12 @@ ol, ul {
   list-style: none;
 }
 body {
-  font-size: 14px;
-  /* font-family: 'M PLUS 1p', sans-serif; */
-  color: #432;
   line-height: 1;
   background: #f5f5dc;
   font-family: 'Playfair Display', serif;
 }
 a {
   text-decoration: none;
-  color: #432;
 }
 img {
   max-width: 100%;
@@ -68,6 +64,7 @@ img {
 }
 .Header-Logo-Nav-Wrapper {
   margin: auto 0;
+  color: #432;
 }
 .Header-Logo-Nav {
   font-size: 12px;
@@ -102,6 +99,9 @@ img {
 }
 .pc-nav {
   display: none;
+}
+.pc-nav a {
+  color: #432;
 }
 .sp-nav #open.hide {
   display: none;
@@ -141,6 +141,9 @@ img {
   opacity: 0;
   transform: translateY(16px);
   transition: opacity .3s, transform .3s;
+}
+.overlay a {
+  color:#432;
 }
 .overlay.show li {
   opacity: 1;
@@ -678,7 +681,7 @@ img {
 /* 問合せ */
 .Form-Area {
   width: 60%;
-  margin: 0 auto;
+  margin: 50px auto 100px auto;
   font-size: 16px;
 }
 .Form-Area li:first-child {
@@ -749,6 +752,16 @@ textarea:focus {
   opacity: .6;
   transition: .2s;
 }
+/* フッター */
+footer {
+  height: 300px;
+  font-size: 16px;
+  background: #111;
+}
+footer a {
+  color: #fff;
+}
+
 
 /* PCサイト用レスポンシブ */
 @media (min-width: 700px) {

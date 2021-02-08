@@ -463,11 +463,8 @@ img {
   margin-bottom: 20px;
   font-family: 'Dancing Script', sans-serif;
 }
-.instagram-media {
-  margin-bottom: 50px;
-}
-.twitter-timeline {
-  margin-top: 50px;
+.SNS-Space {
+  height: 50px;
 }
 /* Carender */
 .Carender {

@@ -448,7 +448,7 @@ img {
   color: #800000;
   opacity: .5;
 }
-.Instagram-BG {
+.SNS-BG {
   margin: 50px auto;
   padding: 40px 20px 40px 20px;
   max-width: 580px;
@@ -456,12 +456,18 @@ img {
   border-radius: 4px;
   box-shadow: 0 0 8px gray;
 }
-.Instagram-BG h1 {
+.SNS-BG h1 {
   text-align: center;
   color: #fff;
   font-size: 30px;
   margin-bottom: 20px;
   font-family: 'Dancing Script', sans-serif;
+}
+.instagram-media {
+  margin-bottom: 50px;
+}
+.twitter-timeline {
+  margin-top: 50px;
 }
 /* Carender */
 .Carender {

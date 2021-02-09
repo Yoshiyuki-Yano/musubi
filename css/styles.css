@@ -753,15 +753,35 @@ textarea:focus {
   transition: .2s;
 }
 /* フッター */
-footer {
-  height: 300px;
+.footer-BG {
   font-size: 16px;
   background: #111;
+}
+.footer-BG {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-BG ul {
+  border-bottom:1px solid gray;
+}
+.footer-BG li {
+  margin: 20px;
 }
 footer a {
   color: #fff;
 }
-
+.footer-sns-icons {
+  display: flex;
+  font-size: 20px;
+}
+.footer-sns-icons li {
+  margin-right: 30px;
+}
+.Copyright {
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+}
 
 /* PCサイト用レスポンシブ */
 @media (min-width: 700px) {

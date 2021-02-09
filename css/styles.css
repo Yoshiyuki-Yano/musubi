@@ -756,16 +756,21 @@ textarea:focus {
 .footer-BG {
   font-size: 16px;
   background: #111;
-}
-.footer-BG {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.Classroom-Nav {
+  color: #fff;
+}
+.Footer-Wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .footer-BG ul {
   border-bottom:1px solid gray;
 }
 .footer-BG li {
-  margin: 20px;
+  margin: 30px;
 }
 footer a {
   color: #fff;

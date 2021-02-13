@@ -291,40 +291,29 @@ img {
   text-align: center;
   width: 100%;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
 }
 .About-Philosophy {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.About-Philosophy h1 {
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 .About-Content {
-  font-size: 14px;
+  font-size: 16px;
   padding-top: 50px;
   padding-bottom: 50px;
   background: linear-gradient(#ff8c00, #f5f5dc);
 }
 .About-Content h1 {
-  font-size: 26px;
-  text-align: center;
-  color: #432;
   margin-bottom: 50px;
-}
-.About-Content li {
-  display: block;
   height: 60px;
   line-height: 60px;
   color: #432;
   background: #f5f5dc;
-  margin: 30px 10px;
   box-shadow: 0 0 8px gray;
+  margin: 30px 10px;
 }
 .About-Content li span {
   color: #004f4f;
@@ -332,7 +321,7 @@ img {
   margin-left: 10px;
   margin-right: 10px;
 }
-.About-Content1 h1,
+/* .About-Content1 h1,
 .About-Content2 h1,
 .About-Content3 h1,
 .About-Content4 h1,
@@ -344,8 +333,8 @@ img {
   font-size: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
-}
-.About-Content1,
+} */
+/* .About-Content1,
 .About-Content2,
 .About-Content3,
 .About-Content4,
@@ -355,7 +344,7 @@ img {
   height: 400px;
   margin-top: 40px;
   margin-bottom: 40px;
-}
+} */
 
 /* コース */
 .Course {

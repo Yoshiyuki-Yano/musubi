@@ -188,13 +188,8 @@ img {
   background: radial-gradient(ellipse at center, rgba( 255, 255, 255, .3) 20%,rgba( 255, 255, 255, .15) 40%,rgba( 255, 255, 255, 0) 100%),url(../img/Img3.jpeg) center center;
   background-repeat:  no-repeat;
   background-size: cover;
-  /* background-attachment: fixed; */
 }
-/* .Scroll-Box1 {
-  position: relative;
-  z-index: 1;
-  height: 100vh;
-} */
+
 .Top-Title {
   position: absolute;
   top: 50%;
@@ -296,7 +291,7 @@ img {
   text-align: center;
   width: 100%;
   color: #fff;
-  font-size: 22px;
+  font-size: 20px;
 }
 .About-Philosophy {
   text-align: center;
@@ -337,17 +332,6 @@ img {
   margin-left: 10px;
   margin-right: 10px;
 }
-.About-Content1,
-.About-Content2,
-.About-Content3,
-.About-Content4,
-.About-Content5,
-.About-Content6 {
-  background: #fff;
-  height: 400px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
 .About-Content1 h1,
 .About-Content2 h1,
 .About-Content3 h1,
@@ -360,6 +344,17 @@ img {
   font-size: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+.About-Content1,
+.About-Content2,
+.About-Content3,
+.About-Content4,
+.About-Content5,
+.About-Content6 {
+  background: #fff;
+  height: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /* コース */
@@ -676,21 +671,16 @@ textarea:focus {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.Classroom-Nav {
-  color: #fff;
-}
-.Footer-Wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-.footer-BG ul {
-  border-bottom:1px solid gray;
-}
 .footer-BG li {
   margin: 30px;
 }
 footer a {
   color: #fff;
+}
+.Footer-Nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom:1px solid gray;
 }
 .footer-sns-icons {
   display: flex;
@@ -698,6 +688,15 @@ footer a {
 }
 .footer-sns-icons li {
   margin-right: 30px;
+}
+.Page-Top-Btn a {
+  color: #222;
+  display: block;
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .Copyright {
   text-align: center;

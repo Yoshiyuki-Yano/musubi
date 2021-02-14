@@ -180,6 +180,7 @@ img {
 }
 .Top {
   padding-top: 71px;
+  padding-bottom: 50px;
   height: calc(100vh - 71px);
 }
 .Top-Wrapper {
@@ -256,8 +257,8 @@ img {
 
 /* セクション共通 */
 .Section-Title-BG {
-  padding-top: 120px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 20px;
   height: 100px;
   line-height: 100px;
   text-align: center;
@@ -276,6 +277,9 @@ img {
   background: linear-gradient(#222,beige);
 }
 /* ABOUT */
+.About {
+  background: #fdfdfd;
+}
 .About-Img-BG {
   background:
   linear-gradient(
@@ -297,7 +301,7 @@ img {
   text-align: center;
   font-size: 16px;
   color: #555;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   line-height: 50px;
   padding-top: 70px;
   padding-bottom: 100px;
@@ -306,7 +310,7 @@ img {
   font-size: 16px;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(#ff8c00, #f5f5dc);
+  background: linear-gradient(#ff8c00, #fff 70%);
 }
 .About-Content ul {
   margin-right: 10px;
@@ -330,6 +334,9 @@ img {
 .About-Content li {
   margin-bottom: 30px;
   box-shadow: 0 0 8px gray;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .About-Content li p {
   color: #333;
@@ -440,6 +447,8 @@ img {
 /* PROFILE */
 .Profile {
   width: 100%;
+  background: #fdfdfd;
+  padding-bottom: 100px;
 }
 .Profile-Wrapper {
   font-size: 16px;
@@ -474,7 +483,8 @@ img {
   opacity: .5;
 }
 .SNS-BG {
-  margin: 50px auto;
+  margin: 0 auto;
+  padding: 50px 0;
   padding: 40px 20px 40px 20px;
   max-width: 580px;
   background: #2f4f4f;
@@ -573,9 +583,13 @@ img {
   margin: 0 auto;
 }
 /* 問合せ */
+.Form {
+  background: #fdfdfd;
+}
 .Form-Area {
   width: 60%;
-  margin: 50px auto 100px auto;
+  margin: 0 auto 0 auto;
+  padding: 50px 0 100px 0;
   font-size: 16px;
 }
 .Form-Area li:first-child {

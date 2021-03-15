@@ -180,7 +180,6 @@ img {
 }
 .Top {
   padding-top: 71px;
-  padding-bottom: 50px;
   height: calc(100vh - 71px);
 }
 .Top-Wrapper {
@@ -400,9 +399,11 @@ img {
 }
 .Course-Menu li a h1 {
   font-size: 18px;
+  padding-top: 10px;
 }
 .Course-Menu li a p {
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 30px;
 }
 .Course-Menu li a.Active {
   background: #d2b48c;
@@ -464,6 +465,7 @@ img {
 }
 .Profile-Introduction {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .Profile-Introduction p {
   padding-bottom: 8px;
